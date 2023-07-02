@@ -1,0 +1,21 @@
+{
+  "name": "ttt2d",
+  "version": "1.0.0",
+  "description": "ttt2d",
+  "main": "index.js",
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ttt"
+  },
+  "keywords": [
+    "ttt"
+  ],
+  "author": "pragm",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.1"
+  }
+}
