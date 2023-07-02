@@ -3,7 +3,7 @@
 // add cors https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 const options = {cors: true};
 const io = require("socket.io")(options);
-const {Field} = require("./components/field");
+const {Field} = require(".backend/components/field");
 
 const field = new Field();
 let players = { 1: "", 2: "" };
